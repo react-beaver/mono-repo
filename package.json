@@ -1,0 +1,21 @@
+{
+  "name": "@react-beaver/mono-repo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/**",
+    "examples/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-beaver/mono-repo.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3",
+    "vite": "^2.9.2"
+  },
+  "scripts": {
+    "start:example": "yarn workspace example-app dev"
+  }
+}
